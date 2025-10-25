@@ -4,28 +4,34 @@ import { motion } from 'framer-motion';
 const Team = () => {
   const team = [
     {
-      name: 'Shaafi',
+      name: 'Shaafi Abokor',
       role: 'Chief Executive Officer (CEO)',
       description: 'Visionary leader driving strategic growth and innovation.',
       image: "https://horizons-cdn.hostinger.com/f624ca9a-1653-40ab-b3cd-768e6d1fd78e/056caa6ce4d46fe45c507e1bd4efa969.jpg"
     },
     {
-      name: 'Jimcaale',
+      name: 'Jimale M. Osman',
       role: 'Chief Financial Officer (CFO) & Lead Developer',
       description: 'Financial strategist and technical architect.',
       image: "https://horizons-cdn.hostinger.com/f624ca9a-1653-40ab-b3cd-768e6d1fd78e/whatsapp-image-2025-09-16-at-9.06.31-am-kiamP.jpeg"
     },
     {
-      name: 'Zekeriye',
+      name: 'Zekeriye Mohamed',
       role: 'Chief Operating Officer (COO) & Creative Director',
       description: 'Operations excellence and creative vision.',
-      image: ""
+      image: "https://horizons-cdn.hostinger.com/f624ca9a-1653-40ab-b3cd-768e6d1fd78e/6aafb5e078c38833c0ad543efbd1968c.jpg"
     },
     {
-      name: 'Mahad',
+      name: 'Mahad Egal',
       role: 'Head of Production',
       description: 'Delivering world-class production quality.',
-      image: ""
+      image: "https://horizons-cdn.hostinger.com/f624ca9a-1653-40ab-b3cd-768e6d1fd78e/e5be8e0823330e542946493c11891b03.jpg"
+    },
+    {
+      name: 'Sacad Colhaye',
+      role: 'Chief Technology Officer (CTO)',
+      description: 'Leading our tech frontier with cutting-edge solutions.',
+      image: "https://horizons-cdn.hostinger.com/f624ca9a-1653-40ab-b3cd-768e6d1fd78e/6b4a3fd1c2fe491ec156dd73bac3a659.jpg"
     },
   ];
 
@@ -49,7 +55,7 @@ const Team = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 justify-center">
           {team.map((member, index) => (
             <motion.div
               key={index}

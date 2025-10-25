@@ -46,7 +46,7 @@ const Packages = () => {
   },
   {
     name: 'Platinum',
-    price: '$699.9',
+    price: '$599.9',
     period: '/month',
     features: [
       '26 posts per month',
